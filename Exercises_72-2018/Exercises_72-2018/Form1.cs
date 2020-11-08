@@ -49,9 +49,9 @@ namespace Exercises_72_2018
 
             foreach (ExerciseResults r in results)
             {
-                Rezultati.Items.Add(r.Id + "," + 
-                    r.StudentName + "," + 
-                    r.StudentIndex + ","+
+                Rezultati.Items.Add(r.Id + ". " + 
+                    r.StudentName + ", " + 
+                    r.StudentIndex + ", "+
                     r.Points);
             }
 
